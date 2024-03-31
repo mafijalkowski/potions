@@ -37,8 +37,8 @@ hajs = 0
 font = pygame.font.Font(None, 36)
 
 # Ścieżka do pliku z zapisanym postępem gry
-SAVE_FILE_PATH = "G:\VS Code\save.dat"
-image_folder = "G:\VS Code"
+SAVE_FILE_PATH = "save.dat"
+image_folder = "assets"
 
 # Klasa reprezentująca pojedynczą liczbę
 class Potion:
