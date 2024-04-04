@@ -51,7 +51,7 @@ class Potion:
         self.click_margin = 3.5  # Margines kliknięcia
         self.image_name = f"{value}.{tier}.png"  # Nazwa pliku obrazu
         
-        self.image = pygame.image.load(os.path.join("G:\VS Code", self.image_name))
+        self.image = pygame.image.load(os.path.join("assets", self.image_name))
         self.rect = self.image.get_rect(topleft=(self.x, self.y))
 
         # Rozszerzamy prostokąt kolizji o margines kliknięcia
